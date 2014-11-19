@@ -1,15 +1,54 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Exemplo Mobile</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, height=device-height" />
-		<script type="text/javascript" src="cordova.js"></script>
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/index.js"></script>
-	</head>
-	<body>
-		Nome: <input id="txtNome" type="text">
-		<button id="btOk">Ok</button>
-	</body>
+<head>
+    <meta charset="utf-8" />
+    <title>App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- critical -->
+    <!-- PhoneGap, jQuery, App, jQuery.Mobile -->
+    <script charset="utf-8" src="js/cordova.js"></script>
+    <script charset="utf-8" src="js/jquery.min.js"></script>
+    <script charset="utf-8" src="js/app.js"></script>
+    <script charset="utf-8" src="js/jquery.mobile.min.js"></script>
+<!-- critical -->
+<!-- plugins -->
+<!-- plugins-->
+<!-- themes -->
+    <!-- jQuery Mobile, FontAwesome & App -->
+    <link rel="stylesheet" href="css/jquery-mobile/jquery.mobile.min.css" />
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+<!-- /themes -->
+</head>
+<body>
+    <div data-role="page" id="ActivityFoo">
+        <div data-role="header">
+            <h1>Header 1</h1>
+            <div class="topmenu" data-role="controlgroup" data-type="horizontal">
+                <a class="current-page-item" href="index.html#ActivityFoo" title="Foo" data-role="button"><i class="fontawesome icon-home"></i></a>
+                <a href="index.html#ActivityBar" title="Bar" data-role="button"><i class="fontawesome icon-ticket"></i></a>
+            </div>
+        </div>
+        <div data-role="content">
+            <h1>Content 1</h1>
+        </div>
+        <div date-role="footer">
+            <h1>Footer 1</h1>
+        </div>
+    </div>
+    <div data-role="page" id="ActivityBar">
+        <div data-role="header">
+            <h1>Header 2</h1>
+            <div class="topmenu" data-role="controlgroup" data-type="horizontal">
+                <a href="index.html#ActivityFoo" title="Foo" data-role="button"><i class="fontawesome icon-home"></i></a>
+                <a class="current-page-item" href="index.html#ActivityBar" title="Bar" data-role="button"><i class="fontawesome icon-ticket"></i></a>
+        </div>
+        <div data-role="content">
+            <h1>Content 2</h1>
+        </div>
+        <div date-role="footer">
+            <h1>Footer 2</h1>
+        </div>
+    </div>
+</body>
 </html>
