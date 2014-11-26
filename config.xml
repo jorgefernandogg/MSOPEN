@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.example.exemploMobile" version = "0.0.1">
 	<name>Enem MACE</name>
 	<icon src="icon.png" />
-	<gap:splash src="icon.png" />
+	<gap:splash src="splash.png" />
 	<description> Enem MACE </description>
 	<author email="jorge.fggoncalves@gmail.com" href="http://www.mace.com.br"> Criador do projeto </author>
 	<access origin="*" /> <preference name="phonegap-version" value="3.6.3" />
