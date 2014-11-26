@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.example.exemploMobile" version = "0.0.1">
+	<name>MSOPEN</name>
+	<icon src="icon.png" />
+	<gap:splash src="icon.png" />
+	<description> Enem MACE </description>
+	<author email="jorge.fggoncalves@gmail.com" href="http://www.msopends.com.br"> Criador do projeto </author>
+	<access origin="*" /> <preference name="phonegap-version" value="3.6.3" />
+</widget>
